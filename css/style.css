@@ -22,7 +22,7 @@ ul {
 }
 
 body {
-  background: #faf6ed;
+  background: #fafafa;
   columns: #222;
   -webkit-font-smothing: antialiased;
   display: grid;
@@ -34,7 +34,7 @@ body {
   grid-column: 3 / 5;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  background: #fb5;
+  background: #8c322a;
 }
 
 .menu ul {
@@ -47,9 +47,9 @@ body {
   display: block;
   padding: 1rem;
   margin-right: 1rem;
-  color: #222;
+  color: #f2f2f2;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
   text-transform: uppercase;
@@ -78,13 +78,17 @@ body {
   grid-column: 1 / 4;
 }
 
+h3.titulo {
+  font-size: 2rem;
+}
+
 .livros h2::before {
   content: '';
   display: inline-block;
   width: 48px;
   height: 10px;
   margin-right: 10px;
-  background: #fb5;
+  background: #d94a3d;
 }
 
 .livros h2 {
@@ -96,7 +100,7 @@ body {
 }
 
 .livros p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   margin-bottom: 1rem;
 }
@@ -116,7 +120,7 @@ body {
 }
 
 .livros-lista::-webkit-scrollbar-thumb {
-  background: #fb5;
+  background: #d94a3d;
   border-left: 4px solid #faf6ed;
   border-right: 4px solid #faf6ed;
 }
@@ -156,26 +160,28 @@ body {
 .faq-lista dt {
   font-family: bookmania, serif;
   font-weight: bold;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
   margin-top: 2rem;
-  color: #e54;
+  color: #8c322a;
   cursor: pointer;
 }
 
 .faq-lista dt::before {
   content: '';
   display: inline-block;
-  width: 20px;
+  width: 24px;
   height: 10px;
   margin-right: 10px;
-  background: #fb5;
+  background: #8c322a;
 }
 
 .faq-lista dd {
   display: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 0.5rem;
   margin-left: 30px;
+  line-height: 1.5;
 }
 
 .js .js-accordion .faq-lista dd {
@@ -184,7 +190,7 @@ body {
 
 .faq-lista dd.ativo {
   display: block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 0.5rem;
   margin-left: 30px;
   animation: faqExpand 0.5s forwards;
@@ -211,7 +217,8 @@ body {
 
 .dados li {
   margin-bottom: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
 }
 
 .dados li::before {
@@ -220,18 +227,20 @@ body {
   width: 20px;
   height: 10px;
   margin-right: 10px;
-  background: #fb5;
+  background: #8c322a;
 }
 
 .copy {
   grid-column: 3 / 5;
   margin-bottom: 2rem;
-  background: #fb5;
+  background: #8c322a;
+  color: #f2f2f2;
 }
 
 .copy p {
   padding: 20px;
-  font-family: bookmania;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
 }
 
 @media (max-width: 700px) {

@@ -1,5 +1,4 @@
 const menuInterno = document.querySelectorAll('.js-menu ul li a[href^="#"]');
-console.log(menu);
 
 function softScroll(event) {
   event.preventDefault();
