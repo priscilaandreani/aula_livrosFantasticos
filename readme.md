@@ -1,6 +1,6 @@
 # Livros Fantásticos: aulas de javascript
 
-Projeto desenvolvido como parte do curso de Javascript Completo;
+Projeto desenvolvido como parte do curso de Javascript Completo, como parte do entedimento da manipualação do DOM. 
 
 ## 1. Dimensões e distâncias
 
@@ -40,4 +40,5 @@ Projeto desenvolvido como parte do curso de Javascript Completo;
 - createElement()
 - cloneNode()
 
-Arquivos acompanham a explicação [aqui](https://www.notion.so/df1f113a1a1a462096dd6163a4a40b08?v=693c99a42dc149439532d081a4658752)
+Arquivos acompanham a explicação [aqui](https://www.notion.so/df1f113a1a1a462096dd6163a4a40b08?v=693c99a42dc149439532d081a4658752);
+Resultado [aqui](https://priscilaandreani.github.io/DOM_livros2020/)
