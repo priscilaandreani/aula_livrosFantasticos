@@ -40,4 +40,4 @@ Projeto desenvolvido como parte do curso de Javascript Completo;
 - createElement()
 - cloneNode()
 
-Arquivos acompanham a explicação [aqui] (https://www.notion.so/df1f113a1a1a462096dd6163a4a40b08?v=693c99a42dc149439532d081a4658752)
+Arquivos acompanham a explicação [aqui](https://www.notion.so/df1f113a1a1a462096dd6163a4a40b08?v=693c99a42dc149439532d081a4658752)
