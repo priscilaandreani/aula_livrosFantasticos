@@ -1,4 +1,4 @@
-const accordionList = document.querySelectorAll('.js-accordion dt');
+const accordionList = document.querySelectorAll('[data-anime="accordion"] dt');
 
 if (accordionList.length) {
   const activeClass = 'ativo';

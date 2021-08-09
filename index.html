@@ -14,7 +14,7 @@
 
 <body>
 
-  <nav class="menu js-menu">
+  <nav class="menu" data-menu="suave">
     <ul>
       <li><a href="#livros">Livros</a></li>
       <li><a href="#faq">faq</a></li>
@@ -22,41 +22,41 @@
     </ul>
   </nav>
 
-  <section class="grid-section livros" id="livros">
+  <section class="grid-section livros" id="livros" data-anime="scroll">
     <h1 class="titulo">Últimos livros de 2020</h1>
-    <ul class="livros-lista js-tabmenu">
+    <ul class="livros-lista" data-tab="menu">
       <li><img src="https://14habits.com/static/img/cover-br.jpg" alt="Capa do livro azul com o título em tipografia handwritter em turquesa: '14 hábitos de desenvolvedores altamente produtivos'"></li>
       <li><img src="https://images-na.ssl-images-amazon.com/images/I/41w1dSlBlVL._AC_SY400_.jpg" alt="Capa do livro laranja com título em tipografia sem serifa: 'BYUNG-CHUN NO ENXAME'"></li>
       <li><img src="https://a.wattpad.com/cover/138683763-288-k588307.jpg" alt="Capa do livro bege com o desenho de um homem com uma caneta na mão: 'O homem que sabia Javanês'"></li>
       <li><img src="https://images-eu.ssl-images-amazon.com/images/I/51Q2Gm3wqoL._SY445_QL70_ML2_.jpg" alt="Capa do livro: 'Como Mudar o Mundo'"></li>
       <li><img src="https://m.media-amazon.com/images/I/41eLLnR4yTL.jpg" alt="Capa do livro preta com tipografia de serifa fina 'Brasil: Uma Biografia'"></li>
     </ul>
-    <div class="livros-descricao js-tabcontent">
-      <section>
+    <div class="livros-descricao" data-tab="content">
+      <section data-anime="show-down">
         <h2>14 Hábitos de Desenvolvedores Altamente Produtivos</h2>
         <p>De forma descontraída, quase com uma conversa com o leitor, Zeno Rocha explora o cotidiano de desenvolvedores, tentando desmistificar os segredos para ser um bom desenvolvedor. Para apoiar suas ideias (e as vezes para contradizê-las), o escritor brasileiro entrevista programados de várias partes do mundo que trabalham em grandes empresas, como por exemplo Microsoft, Apple, Instagram. Também, ao longo do livro, propõe diversos ToDo's ao leitor, incentivando a reflexão sobre as questões apresentadas.</p>
         <p>A leitura é fácil e rápida. Vale a pena ler e anotar algumas dicas.</p>
       </section>
 
-      <section>
+      <section data-anime="show-left">
         <h2>No enxame: Perspectivas do digital</h2>
         <p>O filósofo norte-coreano, Byung-Chun Han, nos convida a pensar a vida digital e a influência das redes sociais em nosso cotidiano.</p>
         <p>Para estudiosos do design digital é uma leitura imprescindível. Precisamos entender não apenas tecnologia que estamos criando, mas também ter uma visão crítica da sua influência na sociedade. </p>
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>O Homem que Sabia Javanês</h2>
         <p>A voz crítica de Lima Barreto ecoa neste livro de forma bem humorada. No conto Castelo conta ao amigo Castro em uma conversa de bar como enganou toda a cidade com seus ensinamentos da língua javanesa.</p>
         <p>O conto é curtinho e bem humorado. Uma boa leitura para aquele momento no metrô sem fazer nada.</p>
       </section>
 
-      <section>
+      <section data-anime="show-left">
         <h2>Como mudar o mundo: Gestão de Mudanças 3.0 </h2>
         <p>Appelo convida o leitor a mudar o mundo começando pelo mundo ao seu redor. Quais são as coisas que estão ao seu alcance imediato que você pode mudar?</p>
         <p>Com 89 páginas, a escrita é direta e subdividida em vários capítulos. Ótimo para aquela voltinha de metrô na linha amarela, rs. </p>
       </section>
 
-      <section>
+      <section data-anime="show-down">
         <h2>Brasil, uma biogragia</h2>
         <p>Com linguagem fluente, acesso a documentação inédita e profundo rigor na pesquisa, Lilia Moritz Schwarcz e Heloisa Murgel Starling traçam um retrato de corpo inteiro do país, e mostram que o Brasil bem merecia uma nova história. Edição com novo pós-escrito das autoras.
         </p>
@@ -64,10 +64,10 @@
       </section>
     </div>
   </section>
-  <section class="grid-section faq" id="faq">
+  <section class="grid-section faq" id="faq" data-anime="scroll">
     <h3 class="titulo">Nobody asked</h3>
 
-    <dl class="faq-lista js-accordion">
+    <dl class="faq-lista" data-anime="accordion">
       <dt>Por que este projeto foi desenvolvido? </dt>
       <dd>Este projeto é parte dos meus estudos em javascript e com o objetivo de aprofundar e aperfeiçoar minhas habilidades de manipulação do DOM.</dd>
       <dt>Por que livros?</dt>
@@ -80,7 +80,7 @@
 
   </section>
 
-  <section class="grid-section contato" id="contato">
+  <section class="grid-section contato" id="contato" data-anime="scroll">
     <h3 class="titulo">Reading with kindle</h3>
     <div class="mapa">
       <img src="https://cdn.pocket-lint.com/r/s/1200x/assets/images/142508-gadgets-review-kindle-oasis-review-image1-p4kdnsvwmc.jpg" alt="Mão esquerda segurando um kindle Oasis" />
@@ -95,9 +95,9 @@
     <p>Todos os direitos reservados.</p>
   </footer>
 
-  <script src="navegacaoTab.js"></script>
-  <script src="accordionList.js"></script>
-  <script src="softScroll.js"></script>
+  <script src="scripts/navegacaoTab.js"></script>
+  <script src="scripts/accordionList.js"></script>
+  <script src="scripts/softScroll.js"></script>
 </body>
 
 
