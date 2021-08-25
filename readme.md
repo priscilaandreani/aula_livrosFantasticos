@@ -1,4 +1,4 @@
-# Livros Fantásticos: aulas de javascript
+# Livros 2020: aulas de javascript
 
 Projeto desenvolvido como parte do curso de Javascript Completo, como parte do entedimento da manipualação do DOM. 
 
