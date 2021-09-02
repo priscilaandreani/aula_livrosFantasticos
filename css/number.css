@@ -1,0 +1,19 @@
+.number-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column: 2/4;
+  grid-gap: 30px;
+}
+
+.number-grid h4 {
+  font-size: 2rem;
+  font-family: display;
+  margin-bottom: .5rem;
+}
+
+.number-grid span {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #816ad6;
+}

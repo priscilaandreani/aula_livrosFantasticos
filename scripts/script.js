@@ -6,6 +6,7 @@ import initModal from './modules/modal.js'
 import initTooltip from './modules/tooltip.js';
 import initDropdown from './modules/dropdown.js'
 import initMenuMobile from './modules/menuMobile.js'
+import initNumbers from './modules/numbers.js';
 
 
 initScrollSuave();
@@ -16,3 +17,4 @@ initModal();
 initTooltip();
 initDropdown();
 initMenuMobile();
+initNumbers();
